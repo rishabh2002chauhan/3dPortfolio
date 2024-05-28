@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import student from './student.png';
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -29,6 +30,11 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import instaClone from './instaClone.png';
+import randomQuote from './randomQuote.png';
+import drumMachine from './drumMachine.png';
+import markdown from './markdown.png';
+import calculator from './calculator.png';
 
 export {
   logo,
@@ -39,6 +45,7 @@ export {
   github,
   menu,
   close,
+  student,
   css,
   docker,
   figma,
@@ -59,4 +66,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  instaClone,
+  randomQuote,
+  markdown,
+  drumMachine,
+  calculator,
 };

@@ -23,6 +23,12 @@ import {
     jobit,
     tripguide,
     threejs,
+    student,
+    instaClone,
+    randomQuote,
+    markdown,
+    drumMachine,
+    calculator,
   } from "../assets";
   
   export const navLinks = [
@@ -42,20 +48,12 @@ import {
   
   const services = [
     {
+      title: "College Student",
+      icon: student,
+    },
+    {
       title: "Web Developer",
       icon: web,
-    },
-    {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
     },
   ];
   
@@ -72,46 +70,46 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+    // {
+    //   name: "TypeScript",
+    //   icon: typescript,
+    // },
     {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
+    // {
+    //   name: "Redux Toolkit",
+    //   icon: redux,
+    // },
     {
       name: "Tailwind CSS",
       icon: tailwind,
     },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    // {
+    //   name: "Node JS",
+    //   icon: nodejs,
+    // },
+    // {
+    //   name: "MongoDB",
+    //   icon: mongodb,
+    // },
+    // {
+    //   name: "Three JS",
+    //   icon: threejs,
+    // },
+    // {
+    //   name: "git",
+    //   icon: git,
+    // },
+    // {
+    //   name: "figma",
+    //   icon: figma,
+    // },
+    // {
+    //   name: "docker",
+    //   icon: docker,
+    // },
   ];
   
   const experiences = [
@@ -198,67 +196,105 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Random Quote Generator",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Built a random quote generator using reactjs which uses an api for fetching random quotes.Used animate.CSS library for animating text. The api is triggered when the button saying 'New Quote' is clicked.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Animate.css",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Bootstrap",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: randomQuote,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Markdown Editor",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Built a responsive Markdown editor for writing markdown files using reactjs, bootstrap and marked library for parsing markdown text.The markdown editor can be used for creating markdown(.md) files which can be used as intro documents in projects",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
+          name: "Bootstrap",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: markdown,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Drum Machine",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Built a responsive drum machine website which triggers drum sounds on pressing respective buttons on screen/Keyboard.Used Jquery to apply css on elements of same class.",
       tags: [
         {
-          name: "nextjs",
+          name: "Reactjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "JQuery",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Bootstrap",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: drumMachine,
       source_code_link: "https://github.com/",
+    },
+    {
+      name: "Calculator",
+      description:
+        "Built a calculator webpage using reactjs.Used Css Grid and Flexbox for designing the webpage.The calculator handles several cases such as operation stacking, more than one decimal and always something before decimal.The javascript function 'eval()' is used for calculating results.",
+      tags: [
+        {
+          name: "Reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Bootstrap",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: calculator,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Instagram Clone",
+      description:
+        "Built an Instagram clone which supports basic Instagram functionalities like creating a post and follow/unfollow a user.Used Firebase for backend and Zustand for state management.",
+      tags: [
+        {
+          name: "Reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Firebase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "ChakraUI",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Zustand",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: instaClone,
+      source_code_link: "https://github.com/rishabh2002chauhan/instaClone",
     },
   ];
   
