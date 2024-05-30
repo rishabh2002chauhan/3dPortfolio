@@ -7,6 +7,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import student from './student.png';
+import vercel from './vercel.png';
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -71,4 +72,5 @@ export {
   markdown,
   drumMachine,
   calculator,
+  vercel,
 };

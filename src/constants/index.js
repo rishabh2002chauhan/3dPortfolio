@@ -29,6 +29,7 @@ import {
     markdown,
     drumMachine,
     calculator,
+    vercel,
   } from "../assets";
   
   export const navLinks = [
@@ -37,8 +38,8 @@ import {
       title: "About",
     },
     {
-      id: "work",
-      title: "Work",
+      id: "projects",
+      title: "Projects",
     },
     {
       id: "contact",
@@ -215,6 +216,7 @@ import {
       ],
       image: randomQuote,
       source_code_link: "https://github.com/",
+      deploy_link: "https://calculator-gilt-nine.vercel.app/",
     },
     {
       name: "Markdown Editor",
@@ -232,6 +234,7 @@ import {
       ],
       image: markdown,
       source_code_link: "https://github.com/",
+      deploy_link: "https://calculator-gilt-nine.vercel.app/",
     },
     {
       name: "Drum Machine",
@@ -253,6 +256,7 @@ import {
       ],
       image: drumMachine,
       source_code_link: "https://github.com/",
+      deploy_link: "https://calculator-gilt-nine.vercel.app/",
     },
     {
       name: "Calculator",
@@ -269,7 +273,8 @@ import {
         },
       ],
       image: calculator,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/rishabh2002chauhan/calculator",
+      deploy_link: "https://calculator-gilt-nine.vercel.app/",
     },
     {
       name: "Instagram Clone",
@@ -295,6 +300,7 @@ import {
       ],
       image: instaClone,
       source_code_link: "https://github.com/rishabh2002chauhan/instaClone",
+      deploy_link: "https://dragon-zeta-rose.vercel.app/",
     },
   ];
   
